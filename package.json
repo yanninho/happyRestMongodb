@@ -1,0 +1,35 @@
+{
+  "name": "happyrestmongodb",
+  "version": "1.0.0",
+  "description": "Express middleware to use happyRest for request mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter list -- test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanninho/happyRestMongodb.git"
+  },
+  "author": "yanninho <y4nn5m@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanninho/happyRestMongodb/issues"
+  },
+  "homepage": "https://github.com/yanninho/happyRestMongodb#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.0",
+    "mongodb": "^2.0.42",
+    "mongoose": "^4.1.5",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "happyrestfields": "^1.3.0",
+    "happyrestfilters": "^1.1.0",
+    "happyrestrange": "^1.4.3",
+    "happyrestsort": "^1.1.0",
+    "underscore": "^1.8.3"
+  }
+}
