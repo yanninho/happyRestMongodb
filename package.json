@@ -1,6 +1,6 @@
 {
   "name": "happyrestmongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware to use happyRest for request mongodb",
   "main": "index.js",
   "scripts": {
